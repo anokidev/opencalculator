@@ -36,3 +36,18 @@ Backend:
 - [Supabase](https://supabase.com/) : Open-source Firebase alternative.
 - [Jest](https://jestjs.io/) : For testing, mate!
 
+## Directories
+
+This will explain to you the meaning of each directory:
+
+- ```packages``` : Contains shared modules that are used by all sites.
+  - ```configs``` : Shared configs (Tailwind, PostCSS, ESLint). Vite does not support require module, sad.
+  - ```eslint-config-custom``` : Custom ESLint configs from Turbo (Default).
+  - ```ui``` : UI components, built with the help of Svelte, SCSS, PostCSS, and Tailwind.
+- ```sites``` : Well, the websites!
+  - ```frontend``` : Sveltekit + Vite + Typescript project that uses Tailwind, PostCSS, and SCSS.
+  - ```backend``` : Nest.js project for 'contact layer' between frontend and Supabase.
+
+## License
+
+OpenMath is open-source, licensed in [MIT License](./LICENSE.md).

@@ -1,6 +1,6 @@
 /*
 
-	@openmath/frontend/playwright.config.ts
+	@openmath/configs/playwright.config.ts
 
 	This is used as the main 
 	configuration file for Playwright.

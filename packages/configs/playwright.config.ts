@@ -1,6 +1,6 @@
 /*
 
-	@openmath/frontend/playwright.config.ts
+	@openmath/configs/playwright.config.ts
 
 	This is used as the main 
 	configuration file for Playwright.
@@ -12,6 +12,11 @@
 
 import type { PlaywrightTestConfig } from '@playwright/test';
 
-const config: PlaywrightTestConfig = require("@openmath/configs/playwright.config");
+const config: PlaywrightTestConfig = {
+	webServer: {
+		command: 'npm run build && npm run preview',
+		port: 4173
+	}
+};
 
-export default config;
+module.exports = config;
