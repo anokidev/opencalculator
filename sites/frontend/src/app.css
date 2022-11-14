@@ -1,0 +1,15 @@
+/*
+
+	/src/app.css
+
+	This is used as to provide directives
+    for Tailwind.
+
+	Copyright (C) 2022, Anokidev. All rights 
+	reserved. Licensed in MIT License. 
+
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

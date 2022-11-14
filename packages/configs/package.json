@@ -1,0 +1,23 @@
+{
+    
+    "name": "@openmath/configs",
+    "version": "0.0.0",
+    "description": "UI components and scripts.",
+    "author": "anokidev",
+    "private": true,
+    "license": "MIT",
+
+    "type": "module",
+    "module": "index.ts",
+    "svelte": "index.ts",
+
+    "scripts": {
+        "lint": "prettier --check --ignore-path=../../.prettierignore . && eslint \".\"",
+        "format": "prettier --write --ignore-path=../../.prettierignore ."
+    },
+
+    "devDependencies": {
+        "@openmath/eslint-config-custom": "*"
+    }
+  
+}

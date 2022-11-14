@@ -1,0 +1,17 @@
+# /.editorconfig
+# 
+# This is used as the main 
+# configuration file for the editor.
+# 
+# Copyright (C) 2022, Anokidev. All rights 
+# reserved. Licensed in MIT License. 
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4

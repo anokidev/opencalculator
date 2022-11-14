@@ -1,0 +1,28 @@
+{
+
+    "$schema": "https://turbo.build/schema.json",
+
+    "pipeline": {
+        "run:dev": {
+            "cache": false
+        },
+        "run:prod": {
+            "cache": false
+        },
+        "build:standard": {
+            "dependsOn": ["@openmath/ui", "@openmath/configs"],
+            "outputs": [".svelte-kit/**", ".vercel/**"]
+        },
+        "rewrite:lint": {
+            "outputs": []
+        },
+        "rewrite:format": {
+            "outputs": []
+        }
+    },
+
+    "globalDependencies": [
+        ".env"
+    ]
+
+}
