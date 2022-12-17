@@ -1,12 +1,12 @@
 /*
 
-	@openmath/ui/eslint.cjs
+  @openmath/ui/eslint.cjs
+  
+  This is used as the main 
+  configuration file for ESLint.
 
-	This is used as the main 
-	configuration file for ESLint.
-    
-	Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+  Copyright (C) 2022, Anokidev. All rights 
+  reserved. Licensed in MIT License. 
 
 */
 

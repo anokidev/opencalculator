@@ -11,6 +11,8 @@
 
 <script lang="ts">
 
+    //////// IMPORTS ////////
+
     import Header from "@openmath/ui/header/HeaderBar.svelte";
 
 </script>

@@ -1,6 +1,6 @@
 /*
 
-	./postcss.config.cjs
+	@openmath/configs/postcss.config.cjs
 
 	This is used as the main 
 	configuration file for PostCSS.

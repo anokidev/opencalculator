@@ -1,6 +1,6 @@
 /*
 
-	./svelte.config.js
+	@openmath/frontend/svelte.config.js
 
 	This is used as the main 
 	configuration file for Svelte.

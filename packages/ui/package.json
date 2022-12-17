@@ -1,53 +1,28 @@
-{
-    
-    "name": "@openmath/ui",
-    
-    "version": "0.0.0",
-    
-    "description": "UI components and scripts.",
-    
-    "author": "anokidev",
-    
-    "private": true,
-    
-    "license": "MIT",
-    
-    "type": "module",
-    
-    "module": "index.ts",
-    
-    "svelte": "index.ts",
-    
-    "scripts": {
-    
-        
-    "lint": "prettier --check --ignore-path=../../.prettierignore . && eslint \".\"",
-    
-        
+{ 
+  "name": "@openmath/ui",
+  "version": "0.0.0",
+  "description": "UI components and scripts.",
+  "author": "anokidev",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "module": "index.ts",
+  "svelte": "index.ts",
+  
+  "scripts": { 
+    "lint": "prettier --check --ignore-path=../../.prettierignore . && eslint \".\"", 
     "format": "prettier --write --ignore-path=../../.prettierignore ."
-    
-    },
-    
-    "dependencies": {
-    
-        
-    "@fortawesome/free-brands-svg-icons": "^6.2.0",
-    
-        
+  },
+  
+  "dependencies": {   
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",    
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    
-        
+      
     "svelte-fa": "^3.0.3"
-    
-    },
-    
-    "devDependencies": {
-    
-        
-    "@openmath/eslint-config-custom": "*",
-    
-        
+  },
+  
+  "devDependencies": { 
+    "@openmath/eslint-config-custom": "*",     
     "svelte": "^3.44.0"
-    
-    }
+  }
 }

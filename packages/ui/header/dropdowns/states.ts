@@ -1,11 +1,11 @@
 /*
 
-    @openmath/ui/dropdowns/states.ts
+  @openmath/ui/dropdowns/states.ts
 
-    This is the mechanism for opening
-    or closing a dropdown menu.
+  This is the mechanism for opening
+  or closing a dropdown menu.
 
-    Copyright (C) 2022, Anokidev. All rights 
+  Copyright (C) 2022, Anokidev. All rights 
 	reserved. Licensed in MIT License. 
 
 */

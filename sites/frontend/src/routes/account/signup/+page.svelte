@@ -11,26 +11,26 @@
 
 <script lang="ts">
 
+    //////// IMPORTS ////////
+
     // Mounting.
     import { onMount } from "svelte";
-
+    // Header.
     import Header from "@openmath/ui/header/HeaderBar.svelte";
-
     // Theming.
     import { themeName, themeStore } from "@openmath/ui/themes/themer.js";
 
     //////// USER + PASSWORD ////////
 
-    $: checked           = false;
+    // Show password is checked or not?
+    $: checked = false;
 
-    //////// REMEMBER ME ////////
+    // Remember login info.
     let rememberMe: boolean = false;
 
-    //////// LOGIN STUFF /////////
-
-    let username: HTMLInputElement;
-    let password: HTMLInputElement;
-    let email: HTMLInputElement;
+    let username:        HTMLInputElement;
+    let password:        HTMLInputElement;
+    let email:           HTMLInputElement;
     let reEnterPassword: HTMLInputElement;
 
     // The password must contains mininum 1 number and 1 capital letter.
@@ -38,50 +38,50 @@
     // Does the password match?
     let notMatchingPassword: boolean = false;
     // The email must be: [EMAIL-NAME]@[DOMAIN-NAME].[TLD]
-    let notValidEmail: boolean      = false;
+    let notValidEmail: boolean       = false;
 
+    // Check if the password is valid (Minimal: A capital letter and a number letter).
     function checkPassword() {
         if (password.value.match(/[A-Z]/g) && password.value.match(/[0-9]/g)) {
             notValidPassword = false;
         } else {
             notValidPassword = true;
-        }
+        };
     };
 
+    // Compare the re-entered password and the supposed password.
     function comparePassword() {
         if (password.value === reEnterPassword.value) {
             notMatchingPassword = false;
         } else {
             notMatchingPassword = true;
-        }
+        };
     };
 
+    // Check if the email is valid. FORMAT: [name]@[company/email-provider].[TLD].
     function checkEmail() {
         if (email.value.match(/\S+@.+\.\S+/g)) {
             notValidEmail = false;
         } else {
             notValidEmail = true;
-        }
+        };
     };
-
 
     //////// THEMES ////////
 
     $: theme  = "averageLight";
-    $: hover = "";
-    $: text   = "";
+    $: button  = "";
     $: box    = "";
     $: border = "";
     $: error  = "";
 
     onMount(async () => {
         themeName.subscribe((value: any) => {
-            theme = value;
+            theme  = value;
         });
         themeStore.subscribe((value: any) => {
-            hover = value['boxButtonHoverBackgroundColor'];
-            text   = value['boxButtonHoverTextColor'];
-            box    = value['boxBackgroundColor'];
+            button  = value['button'];
+            box    = value['boxBackground'];
             border = value['border'];
             error  = value['error'];
         });
@@ -119,19 +119,16 @@
 <Header/>
 
 <div class="h-screen w-screen m-0 flex lg:justify-start justify-center items-center" style="background-image: url(/svgs/signup/{theme}.svg); background-size: cover;">
-
-    <div class="z-40 lg:w-1/2 w-screen h-full p-10 pt-20 flex flex-col text-center {box} {border} overflow-y-auto">
-
+    <!-- Center Container -->
+    <div class="z-40 lg:w-1/2 w-screen h-full p-10 pt-20 flex flex-col text-center {box} {border} border-r-2 overflow-y-auto">
+        <!-- Title -->
         <div class="w-full">
             <h1 class="float-left font-bold text-4xl mb-10">Sign Up</h1>
         </div>
-
+        <!-- Description -->
         <p class="lg:text-lg text-sm mb-4 text-left">If you have an account, you can store your projects, share your projects, or collaborate together.</p>
-
+        <!-- Log In Notice -->
         <p class="lg:text-lg text-sm mb-4 text-left">But if you have an account, <a href="/account/login" class="underline">Log in!</a></p>
-
-        <p class="w-full lg:text-md text-xs text-left">Go back to <a href="/home" class="underline">home</a>.</p>
-
         <!-- Username, Password -->
         <div class="w-full flex flex-col justify-center items-center">
             <!-- Username -->
@@ -173,7 +170,7 @@
             </div>
             <!-- Login -->
             <div class="w-full mt-2 flex flex-row">
-                <div class="w-full p-2 {hover} {border} border rounded-lg cursor-pointer" on:click={() => {}} on:keypress={(event) => {if (event.key == "Enter") {}}}>Create an Account</div>
+                <div class="w-full p-2 {button} border rounded-lg cursor-pointer" on:click={() => {}} on:keypress={(event) => {if (event.key == "Enter") {}}}>Create an Account</div>
             </div>
              <!-- Show Password -->
              <div class="w-full mt-2 flex flex-row cursor-pointer">
@@ -181,13 +178,10 @@
                 <label for="checkbox" class="text-sm ml-2">Remember Me</label>
             </div>
         </div>
-
-            <!-- Sign Up using Google, etc -->
-            <div class="w-full pt-2 mt-4 border-t {border} justify-center">
-                <i>Or...</i>
-            </div>
-
+        <!-- Sign Up using Google, etc -->
+        <div class="w-full pt-2 mt-4 border-t {border} justify-center">
+            <i>Or...</i>
+        </div>
     </div>
-
 </div>
 

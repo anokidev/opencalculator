@@ -11,6 +11,8 @@
 
 <script lang="ts">
 
+    //////// IMPORTS ////////
+
     // Tool for runnning a block of code when the mounting a component.
     import { onMount } from 'svelte';
 
@@ -27,7 +29,6 @@
 
     $: theme  = "averageLight";
     $: button = "";
-    $: text   = "";
     $: box    = "";
     $: border = "";
 
@@ -36,9 +37,8 @@
             theme = value;
         });
         themeStore.subscribe((value: any) => {
-            button = value['boxButtonHoverBackgroundColor'];
-            text   = value['boxButtonHoverTextColor'];
-            box    = value['boxBackgroundColor'];
+            button = value['button'];
+            box    = value['boxBackground'];
             border = value['border'];
         });
     });
@@ -59,23 +59,27 @@
 <!-- Header -->
 <Header/>
 
-    <div class="w-full break-normal">
-
-        <div class="w-full p-28 h-screen flex justify-center items-center flex-col" style="background-image: url(/svgs/banner/{theme}.svg); background-size: cover;">
-            <div class="w-auto p-4 lg:grid lg:grid-cols-2 lg:grid-rows-1 grid-cols-1 flex flex-col-reverse rounded-xl {box} {border} border-2">
-                <img src="/assets/gifs/banner.png" alt="banner" class="w-full sm:block hidden"/>
-                <div class="w-full flex flex-col lg:align-middle lg:justify-start justify-center lg:text-left text-center lg:border-l border-l-0 sm:ml-5 m-0 {border}">
-                    <h1 class="m-5 font-bold lg:text-7xl sm:text-4xl text-sm">OpenMath</h1>
-                    <p class="m-5 sm:text-md text-sm">An easy-to-use, completely free, and open-source collection of graphical calculator apps made for everyone to use.</p>
-                </div>
+<div class="w-full break-normal">
+    <div class="w-full h-screen flex justify-center items-center flex-col" style="background-image: url(/svgs/banner/{theme}.svg); background-size: cover;">
+        
+        <div class="lg:w-3/4 w-full flex flex-col lg:align-middle lg:justify-start justify-center text-center m-0">
+            <h1 class="m-5 font-bold lg:text-4xl sm:text-4xl text-xl">OpenMath</h1>
+            <p class="m-5 sm:text-md text-lg">An easy-to-use, completely free, and open-source collection of graphical calculator apps made for everyone to use.</p>
+            <!-- Buttons -->
+            <div class="m-5 flex lg:flex-row flex-col lg:justify-start justify-center">
+                <a class="w-full flex justify-center content-center {button} lg:mr-5 lg:mb-0 mr-0 mb-5 p-2 rounded-xl" href="/help/getstarted">
+                    <p>Get Started</p>
+                </a>
+                <a class="w-full flex justify-center content-center {button} p-2 rounded-xl" href="/help/learnmore">
+                    <p>Learn More</p>
+                </a>
             </div>
         </div>
-
-        <div class="bg-transparent z-30 shadow-xl border-t-2 {border}" style="background-image: url(/svgs/banner/{theme}.svg); background-size: cover;">
-            <Explore />
-            <Features />
-            <News />
-        </div>
-
     </div>
+    <div class="bg-transparent z-30 shadow-xl border-t-2 {border}" style="background-image: url(/svgs/banner/{theme}.svg); background-size: cover;">
+        <Explore />
+        <Features />
+        <News />
+    </div>
+</div>
 
