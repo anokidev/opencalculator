@@ -1,11 +1,11 @@
 <!--
 
-  @opencalc/ui/header/dropdowns/HeaderLang.svelte
+  @opencalculator/ui/header/dropdowns/HeaderLang.svelte
 
   This is the dropdown content for configuring language.
 
   Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 -->
 

@@ -1,11 +1,11 @@
 /*
 
-	@opencalc/configs/index.ts
+	@opencalculator/configs/index.ts
 
 	This is used for default export.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is licensed in MIT License.
+  OpenCalculator is licensed in MIT License.
 
 */
 

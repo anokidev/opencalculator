@@ -8,13 +8,18 @@ export class UserController {
 
   constructor(private readonly UserService: UserService) {};
 
-  @Post('signup')
+  @Post('register')
   signup(@Body() request: Request) {
     
   };
 
   @Post('delete')
   delete(@Body() request: Request) {
+
+  };
+
+  @Post('edit')
+  edit(@Body() request: Request) {
 
   };
 

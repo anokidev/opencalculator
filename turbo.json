@@ -10,7 +10,7 @@
     },
 
     "build:standard": {
-      "dependsOn": ["@opencalc/ui", "@opencalc/configs"],
+      "dependsOn": ["@opencalculator/ui", "@opencalculator/configs"],
       "outputs": [".svelte-kit/**", ".vercel/**"]
     },
     

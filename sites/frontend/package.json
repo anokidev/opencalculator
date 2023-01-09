@@ -1,5 +1,5 @@
 { 
-  "name": "@opencalc/frontend",
+  "name": "@opencalculator/frontend",
   "version": "0.0.0",
   "description": "Frontend server for calculator rendering and UI.",
   "author": "anokidev",
@@ -20,7 +20,7 @@
   },
   
   "dependencies": {  
-    "@opencalc/ui": "*",
+    "@opencalculator/ui": "*",
 
     "svelte-fa": "^3.0.3",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -28,8 +28,8 @@
   },
   
   "devDependencies": { 
-    "@opencalc/configs": "*",
-    "@opencalc/eslint-config-custom": "*",
+    "@opencalculator/configs": "*",
+    "@opencalculator/eslint-config-custom": "*",
 
     "svelte": "^3.44.0",
     "svelte-check": "^2.7.1",

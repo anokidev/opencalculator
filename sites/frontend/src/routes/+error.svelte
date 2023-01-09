@@ -1,11 +1,11 @@
 <!--
 
-  @opencalc/frontend/src/routes/+error.svelte
+  @opencalculator/frontend/src/routes/+error.svelte
 
   This is the main homepage.
 
   Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 -->
 
@@ -18,9 +18,9 @@
     // Page.
     import { page } from '$app/stores';
     // Header.
-    import Header from "@opencalc/ui/header/HeaderBar.svelte";
+    import Header from "@opencalculator/ui/header/HeaderBar.svelte";
     // Themes.
-    import { themeName, themeStore } from "@opencalc/ui/themes/themer.js";
+    import { themeName, themeStore } from "@opencalculator/ui/themes/themer.js";
 
     //////// THEMES ////////
 
@@ -55,7 +55,7 @@
 
 <!-- Head. -->
 <svelte:head>
-    <title>Error {$page.status} | OpenCalc</title>
+    <title>Error {$page.status} | OpenCalculator</title>
 </svelte:head>
 
 <!-- Header -->

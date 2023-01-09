@@ -1,7 +1,7 @@
-# OpenCalc
+# OpenCalculator
 
-OpenCalc is a free and open-source collection of graphical calculator utillity apps, that you can use via a website!
-The entire concept of OpenCalc revolves around objects. Each of them contains specific properties that the user can manipulate, such as:
+OpenCalculator is a free and open-source collection of graphical calculator utillity apps, that you can use via a website!
+The entire concept of OpenCalculator revolves around objects. Each of them contains specific properties that the user can manipulate, such as:
 
 - Points.
 - Equations.
@@ -10,9 +10,9 @@ The entire concept of OpenCalc revolves around objects. Each of them contains sp
 
 ## Features
 
-OpenCalc provides numerous features such as 2D graphical calculator that supports 2D shapes and lines. OpenCalc also provides 3D graphical calculator that supports 3D shapes and lines (This time with z position property).
+OpenCalculator provides numerous features such as 2D graphical calculator that supports 2D shapes and lines. OpenCalculator also provides 3D graphical calculator that supports 3D shapes and lines (This time with z position property).
 
-OpenCalc also has the ability to collaborate together real-time, share the projects to a lot of platforms, download the project in the form of a single file, and store the projects in the cloud, which requires user authentication system.
+OpenCalculator also has the ability to collaborate together real-time, share the projects to a lot of platforms, download the project in the form of a single file, and store the projects in the cloud, which requires user authentication system.
 
 ## Scripts
 
@@ -23,4 +23,4 @@ OpenCalc also has the ability to collaborate together real-time, share the proje
 
 ## License
 
-OpenCalc is open-source, licensed in [MIT License](./LICENSE.md).
+OpenCalculator is open-source, licensed in [MIT License](./LICENSE.md).

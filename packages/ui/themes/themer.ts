@@ -1,6 +1,6 @@
 /*
 
-  @opencalc/ui/themes/data.ts
+  @opencalculator/ui/themes/data.ts
   
   This contains the color data for themes.
   Available themes:
@@ -12,7 +12,7 @@
   - Very dark.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 

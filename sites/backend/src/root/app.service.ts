@@ -1,11 +1,11 @@
 /*
 
-  @opencalc/backend/root/app.service.ts
+  @opencalculator/backend/root/app.service.ts
 
   This file contains the root's service.
 
   Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 

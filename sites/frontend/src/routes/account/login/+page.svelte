@@ -1,11 +1,11 @@
 <!--
 
-  @opencalc/frontend/src/routes/account/login/+page.svelte
+  @opencalculator/frontend/src/routes/account/login/+page.svelte
 
   This is for the login page.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 -->
 
@@ -16,9 +16,9 @@
   // Mounting.
   import { onMount } from "svelte";
   // Header.
-  import Header from "@opencalc/ui/header/HeaderBar.svelte";
+  import Header from "@opencalculator/ui/header/HeaderBar.svelte";
   // Theming.
-  import { themeName, themeStore } from "@opencalc/ui/themes/themer.js";
+  import { themeName, themeStore } from "@opencalculator/ui/themes/themer.js";
 
   //////// USER + PASSWORD ////////
 
@@ -52,7 +52,7 @@
 
 <!-- Head. -->
 <svelte:head>
-  <title>Login | OpenCalc</title>
+  <title>Login | OpenCalculator</title>
 </svelte:head>
 
 <Header/>

@@ -1,11 +1,11 @@
 /*
 
-  @opencalc/backend/app.module.ts
+  @opencalculator/backend/app.module.ts
 
   This file contains the root's controller.
 
   Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 
@@ -19,7 +19,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {};
 
   @Get('/')
-  @Redirect('OpenCalc.netlify.app', 302)
+  @Redirect('opencalculator.netlify.app', 302)
   getHello(): string {
     return this.appService.getHello();
   };

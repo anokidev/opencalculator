@@ -1,4 +1,4 @@
-# @opencalc/backend
+# @opencalculator/backend
 
 This is the backend part of the website, serving as a glue between the frontend and supabase.
 

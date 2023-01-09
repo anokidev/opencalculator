@@ -1,6 +1,6 @@
 <!--
 
-  @opencalc/ui/header/Header.svelte
+  @opencalculator/ui/header/Header.svelte
 
   This is the main header component.
   Which contains:
@@ -12,7 +12,7 @@
   All a has href="" so that it is keyboard-focusable.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 -->
 
@@ -95,8 +95,8 @@
   <!-- Navbar -->
   <div class="top-0 h-12 w-full grid grid-cols-2 grid-rows-1 lg:grid-cols-3 {boxBackground} {border} border-b-2">
     <!-- Navbar Logo -->
-    <div class="pl-10 flex justify-start items-center cursor-pointer" title="OpenCalc">
-      <a class="h-full items-center p-3 font-mono text-xl font-semibold {menu} cursor-pointer" href="/">OpenCalc</a>
+    <div class="pl-10 flex justify-start items-center cursor-pointer" title="OpenCalculator">
+      <a class="h-full items-center p-3 font-mono text-xl font-semibold {menu} cursor-pointer" href="/">OpenCalculator</a>
     </div>
     <!-- Menus -->
     <div class="hidden lg:flex justify-center items-center">

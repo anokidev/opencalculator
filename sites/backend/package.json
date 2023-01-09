@@ -1,5 +1,5 @@
 {
-  "name": "@opencalc/backend",
+  "name": "@opencalculator/backend",
   "version": "0.0.0",
   "description": "Backend server for database and user auth.",
   "author": "anokidev",
@@ -35,9 +35,9 @@
   },
 
   "devDependencies": {
-    "@opencalc/configs": "*",
-    "@opencalc/eslint-config-custom": "*",
-    "@opencalc/supabase" : "*",
+    "@opencalculator/configs": "*",
+    "@opencalculator/eslint-config-custom": "*",
+    "@opencalculator/supabase" : "*",
 
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",

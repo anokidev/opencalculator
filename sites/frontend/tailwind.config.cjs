@@ -1,15 +1,15 @@
 /*
 
-	@opencalc/frontend/tailwind.config.cjs
+	@opencalculator/frontend/tailwind.config.cjs
 
 	This is used as the main 
 	configuration file for Tailwind.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 
 /** @type {import('tailwindcss').Config} */
 
-module.exports = require("@opencalc/configs/tailwind.config.cjs");
+module.exports = require("@opencalculator/configs/tailwind.config.cjs");

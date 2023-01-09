@@ -1,5 +1,5 @@
 { 
-  "name": "@opencalc/supabase",
+  "name": "@opencalculator/supabase",
   "version": "0.0.0",
   "description": "Supabase wrapper.",
   "author": "anokidev",
@@ -22,8 +22,8 @@
   },
   
   "devDependencies": { 
-    "@opencalc/eslint-config-custom": "*",  
-    "@opencalc/configs" : "*",
+    "@opencalculator/eslint-config-custom": "*",  
+    "@opencalculator/configs" : "*",
 
     "@supabase/supabase-js" : "latest"
   }

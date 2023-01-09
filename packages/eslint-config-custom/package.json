@@ -1,5 +1,5 @@
 {
-  "name": "@opencalc/eslint-config-custom",
+  "name": "@opencalculator/eslint-config-custom",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",

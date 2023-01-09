@@ -1,4 +1,4 @@
-# @opencalc/frontend
+# @opencalculator/frontend
 
 This contains the source code for the frontend part of the website, serving as the face of the website.
 

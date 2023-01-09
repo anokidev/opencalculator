@@ -1,5 +1,5 @@
 { 
-  "name": "@opencalc/ui",
+  "name": "@opencalculator/ui",
   "version": "0.0.0",
   "description": "UI components and scripts.",
   "author": "anokidev",
@@ -22,8 +22,8 @@
   },
   
   "devDependencies": { 
-    "@opencalc/eslint-config-custom": "*",
-    "@opencalc/configs" : "*", 
+    "@opencalculator/eslint-config-custom": "*",
+    "@opencalculator/configs" : "*", 
 
     "svelte": "^3.44.0",
 

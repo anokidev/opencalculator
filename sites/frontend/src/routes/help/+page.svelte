@@ -1,11 +1,11 @@
 <!--
 
-  @opencalc/frontend/src/routes/help/+page.svelte
+  @opencalculator/frontend/src/routes/help/+page.svelte
 
   This is the main homepage.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 -->
 
@@ -13,13 +13,13 @@
 
   //////// IMPORTS ////////
 
-  import Header from "@opencalc/ui/header/HeaderBar.svelte";
+  import Header from "@opencalculator/ui/header/HeaderBar.svelte";
 
 </script>
 
 <!-- Head. -->
 <svelte:head>
-  <title>Help | OpenCalc</title>
+  <title>Help | OpenCalculator</title>
 </svelte:head>
 
 <!-- Header -->

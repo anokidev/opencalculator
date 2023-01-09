@@ -1,11 +1,11 @@
 /*
 
-  @opencalc/backend/user/user.module.ts
+  @opencalculator/backend/user/user.module.ts
 
   This file contains the user module.
 
   Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 

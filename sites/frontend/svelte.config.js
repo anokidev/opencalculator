@@ -1,12 +1,12 @@
 /*
 
-	@opencalc/frontend/svelte.config.js
+	@opencalculator/frontend/svelte.config.js
 
 	This is used as the main 
 	configuration file for Svelte.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 
 */
 

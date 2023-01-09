@@ -1,6 +1,6 @@
 # Contributing
 
-Due to the project's nature of OpenCalc is being open source, the source code is available to the public.
+Due to the project's nature of OpenCalculator is being open source, the source code is available to the public.
 
 ## Before contributing....
 

@@ -1,12 +1,12 @@
 <!--
 
-  @opencalc/ui/header/HeaderMobileMenu.svelte
+  @opencalculator/ui/header/HeaderMobileMenu.svelte
 
   This is the dropdown content for mobile menu.
   All a has href="" so that it is keyboard-focusable.
 
 	Copyright (C) 2022, Anokidev. All right reserved.
-  OpenCalc is open source and is licensed in MIT License.
+  OpenCalculator is open source and is licensed in MIT License.
 -->
 
 <script lang="ts">

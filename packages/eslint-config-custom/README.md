@@ -1,3 +1,3 @@
-# @opencalc/eslint-config-custom
+# @opencalculator/eslint-config-custom
 
 From Turborepo.
