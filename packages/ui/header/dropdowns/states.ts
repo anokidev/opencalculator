@@ -1,12 +1,12 @@
 /*
 
-  @openmath/ui/dropdowns/states.ts
+  @opencalc/ui/dropdowns/states.ts
 
   This is the mechanism for opening
   or closing a dropdown menu.
 
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

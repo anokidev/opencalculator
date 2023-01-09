@@ -1,11 +1,11 @@
 <!--
 
-  @openmath/ui/header/dropdowns/HeaderAccount.svelte
+  @opencalc/ui/header/dropdowns/HeaderAccount.svelte
 
   This is the dropdown content for showing account menu.
 
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+  Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 

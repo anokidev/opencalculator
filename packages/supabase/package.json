@@ -1,0 +1,30 @@
+{ 
+  "name": "@opencalc/supabase",
+  "version": "0.0.0",
+  "description": "Supabase wrapper.",
+  "author": "anokidev",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "module": "index.ts",
+  "svelte": "index.ts",
+  
+  "scripts": { 
+    "lint": "prettier --check --ignore-path=../../.prettierignore . && eslint \".\"", 
+    "format": "prettier --write --ignore-path=../../.prettierignore ."
+  },
+  
+  "dependencies": {   
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",    
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+      
+    "svelte-fa": "^3.0.3"
+  },
+  
+  "devDependencies": { 
+    "@opencalc/eslint-config-custom": "*",  
+    "@opencalc/configs" : "*",
+
+    "@supabase/supabase-js" : "latest"
+  }
+}

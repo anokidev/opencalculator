@@ -1,13 +1,12 @@
 <!--
 
-    @openmath/ui/header/HeaderMobileMenu.svelte
+  @opencalc/ui/header/HeaderMobileMenu.svelte
 
-    This is the dropdown content for mobile menu.
-    All a has href="" so that it is keyboard-focusable.
+  This is the dropdown content for mobile menu.
+  All a has href="" so that it is keyboard-focusable.
 
-    Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
-
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 -->
 
 <script lang="ts">
@@ -108,16 +107,13 @@
       <Fa class="mt-1 mr-1" icon={faCalculator} size="md"/>
       <p>Calculators</p>
     </a>
-    <a href="/calculators" class="m-0 p-3 flex flex-row justify-center align-center  {menu} cursor-pointer" title="Calculators">
-      <Fa class="mt-1 mr-1" icon={faNewspaper} size="md"/>
-      <p>Blog</p>
-    </a>
     <a href="/help" class="m-0 p-3 flex flex-row justify-center align-center {menu} cursor-pointer" title="Help">
       <Fa class="mt-1 mr-1" icon={faQuestionCircle} size="md"/>
       <p>Help</p>
     </a>
     <!-- Toolbar (Themes, language, etc) -->
-    <div class="m-0 p-2 grid grid-rows-1 grid-cols-4 items-center border-t {border}">
+    <div class="m-0 p-2 grid grid-rows-1 grid-cols-3 items-center border-t {border}">
+      <!-- THEMES-->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div 
         on:keypress={(event) => showDropdownWithKeyboard(event, 'themes')} 
@@ -128,7 +124,9 @@
         <Fa class="sm:block hidden mt-1 mr-1" icon={faEye} size="md"/>
         <p class="toolbar-text">Themes</p>
       </div>
+      <!-- LANGUAGE (Disabled because I am lazy)-->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <!--
       <div
         on:keypress={(event) => showDropdownWithKeyboard(event, 'lang')} 
         on:click={() => showDropdown('lang')} 
@@ -139,6 +137,8 @@
         <Fa class="sm:block hidden mt-1 mr-1" icon={faGlobe} size="md"/>
         <p class="toolbar-text">Language</p>
       </div>
+      -->
+      <!-- CODE-->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div 
         on:keypress={(event) => showDropdownWithKeyboard(event, 'code')} 
@@ -150,6 +150,7 @@
         <Fa class="sm:block hidden mt-1 mr-1" icon={faCode} size="md"/>
         <p class="toolbar-text">Code</p>
       </div>
+      <!-- ACCOUNT -->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div 
         on:keypress={(event) => showDropdownWithKeyboard(event, 'account')} 

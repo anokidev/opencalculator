@@ -1,3 +1,14 @@
+/*
+
+  @opencalc/eslint-config-custom
+
+  Custom ESLint config, included within a default Turbo repo.
+
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
+
+*/
+
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'turbo', 'prettier'],

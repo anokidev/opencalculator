@@ -1,6 +1,6 @@
 /*
 
-  @openmath/ui/themes/data.ts
+  @opencalc/ui/themes/data.ts
   
   This contains the color data for themes.
   Available themes:
@@ -11,8 +11,8 @@
   - Average dark.
   - Very dark.
 
-  Copyright (C) 2022, Anokidev. All rights
-	reserved. Licensed in MIT License.
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 
@@ -69,7 +69,7 @@ const themes: any = {
   },
 
   "averageDark" : {
-    nonBoxBackground: "bg-gray-900 text-white",
+    nonBoxBackground: "bg-gray-800 text-white",
     boxBackground:    "bg-gray-700 text-white",
     border:           "border-white",
     button:           "bg-white text-black hover:bg-inherit border-2 border-white hover:text-white",

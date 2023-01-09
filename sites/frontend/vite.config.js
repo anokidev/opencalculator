@@ -1,12 +1,12 @@
 /*
 
-	@openmath/frontend/vite.config.js
+	@opencalc/frontend/vite.config.js
 
 	This is used as the main 
-	configuration file for Tailwind.
-
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	configuration file for Vite.
+	
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

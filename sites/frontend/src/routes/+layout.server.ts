@@ -1,12 +1,12 @@
 /*
 
-	@openmath/frontend/src/routes/+layout.server.ts
+	@opencalc/frontend/src/routes/+layout.server.ts
 
 	This is used as to redirect to /home
   if you try to access the website from /.
 
-	Copyright (C) 2022, Anokidev. All ights 
-	reserved. Licensed in MIT License. 
+  Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

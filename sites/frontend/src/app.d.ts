@@ -3,10 +3,10 @@
 	/src/app.d.ts
 
 	This is used as the main 
-	configurationm file for defining types.
+	configuration file for defining types.
 
-	Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

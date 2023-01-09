@@ -3,8 +3,8 @@
 # This is used as the main 
 # ignore file for ESLint.
 # 
-# Copyright (C) 2022, Anokidev. All rights 
-# reserved. Licensed in MIT License. 
+#	Copyright (C) 2022, Anokidev. All right reserved.
+# OpenCalc is open source and is licensed in MIT License.
 
 .DS_Store
 node_modules

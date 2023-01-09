@@ -1,5 +1,5 @@
 { 
-  "name": "@openmath/frontend",
+  "name": "@opencalc/frontend",
   "version": "0.0.0",
   "description": "Frontend server for calculator rendering and UI.",
   "author": "anokidev",
@@ -8,8 +8,10 @@
   
   "scripts": {  
     "run:dev": "vite dev",
-    "run:prod": "vite preview",  
+    "run:prod": "vite preview", 
+
     "build:standard": "vite build",
+
     "check:standard": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",   
     
@@ -18,7 +20,7 @@
   },
   
   "dependencies": {  
-    "@openmath/ui": "*",
+    "@opencalc/ui": "*",
 
     "svelte-fa": "^3.0.3",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -26,8 +28,8 @@
   },
   
   "devDependencies": { 
-    "@openmath/configs": "*",
-    "@openmath/eslint-config-custom": "*",
+    "@opencalc/configs": "*",
+    "@opencalc/eslint-config-custom": "*",
 
     "svelte": "^3.44.0",
     "svelte-check": "^2.7.1",

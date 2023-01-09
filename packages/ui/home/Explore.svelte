@@ -1,11 +1,11 @@
 <!--
 
-  @openmath/ui/home/Explore.svelte
+  @opencalc/ui/home/Explore.svelte
 
   This is for homepage Explore section.
 
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 
@@ -66,7 +66,7 @@
     </div>
     <div class="m-4 w-4/5">
       <h1 class="font-bold sm:text-3xl text-md">Get Started</h1>
-      <p class="sm:text-md text-sm">OpenMath is fully free-for-all (No premium plans!), so that you can access all the features without any limitations. Go ahead by clicking this button to get started immediately.</p>
+      <p class="sm:text-md text-sm">OpenCalc is fully free-for-all (No premium plans!), so that you can access all the features without any limitations. Go ahead by clicking this button to get started immediately.</p>
     </div>
   </div>
   <!-- Learn -->
@@ -76,7 +76,7 @@
     </div>
     <div class="m-4 w-4/5">
       <h1 class="font-bold sm:text-3xl text-md">Learn</h1>
-      <p class="sm:text-md text-sm">OpenMath provides an interactive tutorial mode that is available to use. The tutorial provides guides that highlights each element of the page, you can also try to use OpenMath's while learning OpenMath.</p>
+      <p class="sm:text-md text-sm">OpenCalc provides an interactive tutorial mode that is available to use. The tutorial provides guides that highlights each element of the page, you can also try to use OpenCalc's while learning OpenCalc.</p>
     </div>
   </div>
   <!-- Explore -->
@@ -86,7 +86,7 @@
     </div>
     <div class="m-4 w-4/5">
       <h1 class="font-bold sm:text-3xl text-md">Discover</h1>
-      <p class="sm:text-md text-sm">Try and discover more of OpenMath's features. Such as variants of graphical calculators, colloboration tools to work and discuss together, sharing your works, and more!</p>
+      <p class="sm:text-md text-sm">Try and discover more of OpenCalc's features. Such as variants of graphical calculators, colloboration tools to work and discuss together, sharing your works, and more!</p>
     </div>
   </div>
 </div>

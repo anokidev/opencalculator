@@ -1,5 +1,5 @@
 {   
-  "name": "@openmath/configs",
+  "name": "@opencalc/configs",
   "version": "0.0.0",
   "description": "UI components and scripts.",
   "author": "anokidev",
@@ -16,6 +16,6 @@
   },
 
   "devDependencies": {
-    "@openmath/eslint-config-custom": "*"
+    "@opencalc/eslint-config-custom": "*"
   }  
 }

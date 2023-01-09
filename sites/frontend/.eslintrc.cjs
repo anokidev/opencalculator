@@ -1,13 +1,13 @@
 /*
 
-	@openmath/frontend/eslint.cjs
+	@opencalc/frontend/.eslintrc.cjs
 
 	This is used as the main 
 	configuration file for ESLint.
-    
-	Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 
-module.exports = require("@openmath/configs/.eslintrc.cjs");
+module.exports = require("@opencalc/configs/.eslintrc.cjs")

@@ -1,12 +1,12 @@
 /*
 
-	@openmath/configs/eslint.js
+	@opencalc/configs/eslint.js
 
 	This is used as the main 
 	configuration file for ESLint.
 
-	Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

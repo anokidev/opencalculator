@@ -1,29 +1,25 @@
 <!--
 
-    @openmath/frontend/src/routes/labs/+page.svelte
+  @opencalc/frontend/src/routes/labs/+page.svelte
 
-    This is the main homepage.
+  This is the main homepage.
 
-    Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 
 <script lang="ts">
 
-    //////// IMPORTS ////////
+  //////// IMPORTS ////////
 
-    import Header from "@openmath/ui/header/HeaderBar.svelte";
+  import Header from "@opencalc/ui/header/HeaderBar.svelte";
 
 </script>
 
-<style lang="scss">
-
-</style>
-
 <!-- Head. -->
 <svelte:head>
-    <title>Calculators | OpenMath</title>
+  <title>Calculators | OpenCalc</title>
 </svelte:head>
 
 <!-- Header -->

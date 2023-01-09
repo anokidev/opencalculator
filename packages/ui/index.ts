@@ -1,11 +1,11 @@
 /*
 
-	@openmath/ui/index.ts
+	@opencalc/ui/index.ts
 
 	This is used for default export.
 
-    Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 */
 

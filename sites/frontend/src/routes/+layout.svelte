@@ -1,12 +1,12 @@
 <!--
 
-	@openmath/frontend/src/routes/+layout.svelte
+	@opencalc/frontend/src/routes/+layout.svelte
 
 	This is used as the main template file
   for Svelte.
 
-	Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 
@@ -19,9 +19,9 @@
 	// onMount.
 	import { onMount } from 'svelte';
 	// Theme script.
-  import { setThemeOnMount } from "@openmath/ui/themes/themer.js";
+  import { setThemeOnMount } from "@opencalc/ui/themes/themer.js";
 	// Theme script.
-  import { themeStore } from "@openmath/ui/themes/themer.js";
+  import { themeStore } from "@opencalc/ui/themes/themer.js";
 
 	//////// THEMES ////////
 

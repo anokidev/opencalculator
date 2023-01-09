@@ -1,11 +1,11 @@
 <!--
 
-  @openmath/ui/home/News.svelte
+  @opencalc/ui/home/News.svelte
 
   This is for homepage News section.
 
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 

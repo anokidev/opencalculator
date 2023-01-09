@@ -1,12 +1,12 @@
 <!--
 
-  @openmath/ui/header/dropdowns/HeaderThemes.svelte
+  @opencalc/ui/header/dropdowns/HeaderThemes.svelte
 
   This is the dropdown content for configuring themes.
   All a has href="" so that it is keyboard-focusable.
 
-  Copyright (C) 2022, Anokidev. All rights 
-	reserved. Licensed in MIT License. 
+  Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalc is open source and is licensed in MIT License.
 
 -->
 
@@ -134,34 +134,34 @@
       </div>
     </div>
     <div class="h-full m-2 p-1 flex lg:flex-row flex-col justify-center lg:border-t lg:border-l-0 md:border-t md:border-l-0 border-l border-t-0 {border}">
-      <!-- svelte-ignore a11y-invalid-attribute -->
+      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div
         class="m-1 px-3 py-2 flex flex-row rounded-xl justify-center  {button} cursor-pointer" 
         on:keypress={(event) => {changeThemeWithKeyboard(event, "averageLight", 1)}} 
         on:click={() => {changeTheme("averageLight", 1)}}
-        href=""
+        tabindex="0"
         title="Default Light"
       >
         <Fa class="mt-1 mr-1 sm:block hidden" icon={faSun} size="md"/>
         <p class="text-md">Default Light</p>
       </div>
-      <!-- svelte-ignore a11y-invalid-attribute -->
+      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div 
         class="m-1 px-3 py-2 flex flex-row rounded-xl justify-center  {button} cursor-pointer" 
         on:keypress={(event) => {changeThemeWithKeyboard(event, "averageDark", 4)}} 
         on:click={() => {changeTheme("averageDark", 4)}}
-        href=""
+        tabindex="0"
         title="Default Dark"
       >
         <Fa class="mt-1 mr-1 sm:block hidden" icon={faMoon} size="md"/>
         <p class="text-md">Default Dark</p>
       </div>
-      <!-- svelte-ignore a11y-invalid-attribute -->
+      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div 
         class="m-1 px-3 py-2 flex flex-row rounded-xl justify-center {button} cursor-pointer" 
         on:keypress={(event) => {setThemeWithKeyboard(event)}} 
         on:click={() => {setTheme()}}
-        href=""
+        tabindex="0"
         title="System Default"
       >
         <Fa class="mt-1 mr-1 sm:block hidden" icon={faSun} size="md"/>

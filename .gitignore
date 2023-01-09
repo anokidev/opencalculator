@@ -1,4 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# /.gitignore
+# 
+# This is used as the main 
+# ignore file for Git. Copied from Github.
+# 
+#	Copyright (C) 2022, Anokidev. All right reserved.
+# OpenCalc is open source and is licensed in MIT License.
 
 # dependencies
 node_modules
@@ -10,6 +16,9 @@ coverage
 
 # svelte
 .svelte-kit
+
+# nest
+dist
 
 # misc
 .DS_Store

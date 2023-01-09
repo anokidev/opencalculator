@@ -1,5 +1,5 @@
 { 
-  "name": "@openmath/ui",
+  "name": "@opencalc/ui",
   "version": "0.0.0",
   "description": "UI components and scripts.",
   "author": "anokidev",
@@ -22,7 +22,12 @@
   },
   
   "devDependencies": { 
-    "@openmath/eslint-config-custom": "*",     
-    "svelte": "^3.44.0"
+    "@opencalc/eslint-config-custom": "*",
+    "@opencalc/configs" : "*", 
+
+    "svelte": "^3.44.0",
+
+    "svelte-jester": "latest",
+    "@testing-library/svelte": "latest"  
   }
 }
