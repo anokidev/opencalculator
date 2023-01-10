@@ -26,8 +26,9 @@
   $: checked = false;
 
   // Remember login info.
-  let rememberMe: boolean = false;
-  let username:        HTMLInputElement;
+  let rememberMe:      boolean  = false;
+  let firstName:       HTMLInputElement;
+  let lastName:        HTMLInputElement;
   let password:        HTMLInputElement;
   let email:           HTMLInputElement;
   let reEnterPassword: HTMLInputElement;
@@ -134,10 +135,15 @@
     <p class="lg:text-lg text-sm mb-4 text-left">But if you have an account, <a href="/account/login" class="underline">Log in!</a></p>
     <!-- Username, Password -->
     <div class="w-full flex flex-col justify-center items-center">
-      <!-- Username -->
+      <!-- First Name -->
       <div class="w-full mt-2 flex flex-col">
         <b class="mb-1 text-left float-left">Username</b>
-        <input bind:this={username} type="text" placeholder="Enter your username here." class="p-2 {box} {border} border rounded-lg outline-none" id="checkbox">
+        <input bind:this={firstName} type="text" placeholder="Enter your first name here." class="p-2 {box} {border} border rounded-lg outline-none" id="checkbox">
+      </div>
+      <!-- Last Name -->
+      <div class="w-full mt-2 flex flex-col">
+        <b class="mb-1 text-left float-left">Username</b>
+        <input bind:this={lastName} type="text" placeholder="Enter your last name here." class="p-2 {box} {border} border rounded-lg outline-none" id="checkbox">
       </div>
       <!-- Email -->
       <div class="w-full mt-2 flex flex-col">

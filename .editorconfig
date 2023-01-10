@@ -4,7 +4,7 @@
 # configuration file for the editor.
 # 
 # Copyright (C) 2022, Anokidev. All right reserved.
-# OpenCalculator is licensed in MIT License.
+# OpenCalculator is open source and is licensed in MIT License. 
 
 # top-most EditorConfig file
 root = true

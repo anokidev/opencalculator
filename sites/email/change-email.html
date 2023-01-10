@@ -1,0 +1,45 @@
+<!--
+
+  @opencalculator/change-email.html
+
+  This is used for email change confirmation.
+
+	Copyright (C) 2022, Anokidev. All right reserved.
+  OpenCalculator is open source and is licensed in MIT License.
+
+-->
+
+<style>
+
+  .main-container {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  };
+
+  .main-title {
+    text-align: center;
+    font-size: xx;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  };
+
+  .main-desc {
+    text-align: justify;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  };
+
+</style>
+
+<div class="main-container">
+  <h1 class="main-title">Change Your Email</h1>
+  <p class="main-desc">
+    Your email is about to be changed, click the link below to change your email.
+  <p>
+  <a href="{{ .ConfirmationURL }}">Change Your Email</a>
+</div>

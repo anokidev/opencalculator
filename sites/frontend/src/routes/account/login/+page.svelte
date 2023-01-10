@@ -27,7 +27,7 @@
 
   // Remember login info.
   let rememberMe: boolean = false;
-  let username: HTMLInputElement;
+  let email: HTMLInputElement;
   let password: HTMLInputElement;
 
   //////// THEMES ////////
@@ -72,8 +72,8 @@
       <div class="flex flex-col justify-center items-center">
         <!-- Username -->
         <div class="w-full mt-2 flex flex-col">
-          <b class="mb-1 text-left float-left">Username</b>
-          <input bind:this={username} placeholder="Enter your username here." type="text" class="p-2 {box} {border} border rounded-lg outline-none">
+          <b class="mb-1 text-left float-left">Email</b>
+          <input bind:this={email} placeholder="Enter your email here." type="text" class="p-2 {box} {border} border rounded-lg outline-none">
         </div>
         <!-- Password -->
         <div class="w-full mt-2 flex flex-col">

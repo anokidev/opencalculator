@@ -12,36 +12,56 @@
 import { supabaseClient } from "../sb";
 
 // Register / sign up an account.
-const registerAccount = (username: string, password: string) => {
+const registerAccount = async (email: string, password: string): Promise<object> => {
 
-
+	
 
 };
 
 // Delete the account.
-const deleteAccount = (username: string, password: string) => {
+const deleteAccount = async (email: string, password: string): Promise<object> => {
 
 
 
 };
 
 // Edit account.
-const editAccount = (username: string, data: object) => {
+const editAccount = async (email: string, info: object): Promise<object> => {
+	
+	const { data, error } = await supabaseClient.auth.updateUser(info);
 
-
+	return data;
 
 };
 
 // Login.
-const logIn = (username: string, password: string) => {
+const logInViaPassword = async (email: string, password: string): Promise<object> => {
 
+	const { data, error } = await supabaseClient.auth.signInWithPassword({
+		email: email,
+		password: password,
+	});
 
+	return data;
+
+};
+
+const logInViaProviders = async (provider): Promise<object> => {
+
+	const { data, error } = await supabaseClient.auth.signInWithOAuth({
+		provider: provider,
+		options: {
+			redirectTo: 'https://opencalculator.netlify.app/?login=true'
+		}
+	});
+
+	return data;
 
 };
 
 // Logout.
-const logOut = (username: string, password: string) => {
+const logOut = async (email: string, password: string) => {
 
-
+	const { error } = await supabaseClient.auth.signOut();
 
 };

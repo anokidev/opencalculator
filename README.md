@@ -23,4 +23,4 @@ OpenCalculator also has the ability to collaborate together real-time, share the
 
 ## License
 
-OpenCalculator is open-source, licensed in [MIT License](./LICENSE.md).
+OpenCalculator is open-source and is licensed in [MIT License](./LICENSE.md).
